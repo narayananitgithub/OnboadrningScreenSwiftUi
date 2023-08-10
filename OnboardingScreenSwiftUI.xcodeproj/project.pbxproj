@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86013E1B2A83BD2B00C626A4 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86013E1A2A83BD2B00C626A4 /* CircleGroupView.swift */; };
 		861EDA562A82B6E300089921 /* OnboardingScreenSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86977F1F2A8250F900576DBD /* OnboardingScreenSwiftUIApp.swift */; };
 		86977F222A8250F900576DBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86977F212A8250F900576DBD /* ContentView.swift */; };
 		86977F242A8250FA00576DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86977F232A8250FA00576DBD /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86013E1A2A83BD2B00C626A4 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		86977F1C2A8250F900576DBD /* OnboardingScreenSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingScreenSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86977F1F2A8250F900576DBD /* OnboardingScreenSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenSwiftUIApp.swift; sourceTree = "<group>"; };
 		86977F212A8250F900576DBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86013E172A83BC9E00C626A4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		86013E182A83BCA500C626A4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		86013E192A83BCE200C626A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86013E1A2A83BD2B00C626A4 /* CircleGroupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		86977F132A8250F900576DBD = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +126,10 @@
 				86AD447B2A834180003B3B1A /* OnboardindSwiftUI */,
 				86977F532A826F5300576DBD /* SourceFile */,
 				86977F492A82516C00576DBD /* Screens */,
+				86013E172A83BC9E00C626A4 /* Sounds */,
 				86977F502A82661700576DBD /* Assets */,
+				86013E182A83BCA500C626A4 /* Utilities */,
+				86013E192A83BCE200C626A4 /* Views */,
 				86977F252A8250FA00576DBD /* Preview Content */,
 			);
 			path = OnboardingScreenSwiftUI;
@@ -297,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86013E1B2A83BD2B00C626A4 /* CircleGroupView.swift in Sources */,
 				861EDA562A82B6E300089921 /* OnboardingScreenSwiftUIApp.swift in Sources */,
 				86977F4F2A82531B00576DBD /* OnboardingView.swift in Sources */,
 				86977F522A82666700576DBD /* HomeVIew.swift in Sources */,
